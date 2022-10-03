@@ -288,40 +288,40 @@ class manager_create_door(Resource):
         main_image_path = ''
         if(main_image_check == "check"):
             main_image = request.files['main_image']
-            main_image.save("C:\\vsCode\dream_dream_explan\save_image\\" + door_number + "\\main_image.jpg")
-            main_image_path = "C:\\vsCode\dream_dream_explan\save_image\\" + door_number
+            main_image.save("C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number + "\\main_image.jpg")
+            main_image_path = "C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number
             + "\\main_image.jpg"
         
         second_image_check1 = request.json['second_image_check1']
         more_image1_path = ''
         if(second_image_check1 == "check"):
             second_image1 = request.files['second_image1']
-            second_image1.save("C:\\vsCode\dream_dream_explan\save_image\\" + door_number + "\\second_image1.jpg")
-            more_image1_path = "C:\\vsCode\dream_dream_explan\save_image\\" + door_number
+            second_image1.save("C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number + "\\second_image1.jpg")
+            more_image1_path = "C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number
             + "\\second_image1.jpg"
         
         second_image_check2 = request.json['second_image_check2']
         more_image2_path = ''
         if(second_image_check2 == "check"):
             second_image2 = request.files['second_image2']
-            second_image2.save("C:\\vsCode\dream_dream_explan\save_image\\" + door_number + "\\second_image2.jpg")
-            more_image2_path = "C:\\vsCode\dream_dream_explan\save_image\\" + door_number
+            second_image2.save("C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number + "\\second_image2.jpg")
+            more_image2_path = "C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number
             + "\\second_image2.jpg"
         
         second_image_check3 = request.json['second_image_check3']
         more_image3_path = ''
         if(second_image_check3 == "check"):
             second_image3 = request.files['second_image3']
-            second_image3.save("C:\\vsCode\dream_dream_explan\save_image\\" + door_number + "\\second_image3.jpg")
-            more_image3_path = "C:\\vsCode\dream_dream_explan\save_image\\" + door_number
+            second_image3.save("C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number + "\\second_image3.jpg")
+            more_image3_path = "C:\\vsCode\dream_dream_explan\\server\\save_image\\" + door_number
             + "\\second_image3.jpg"
         
         second_image_check4 = request.json['second_image_check4']
         more_image4_path = ''
         if(second_image_check4 == "check"):
             second_image4 = request.files['second_image4']
-            second_image4.save("C:\\vsCode\dream_dream_explan\save_image\\" + door_number + "\\second_image4.jpg")
-            more_image4_path = "C:\\vsCode\dream_dream_explan\save_image\\" + door_number
+            second_image4.save("C:\\vsCode\\server\\dream_dream_explan\save_image\\" + door_number + "\\second_image4.jpg")
+            more_image4_path = "C:\\vsCode\\server\\dream_dream_explan\save_image\\" + door_number
             + "\\second_image4.jpg"
         
         # door add
@@ -411,7 +411,7 @@ logger.setLevel(logging.INFO)
 # log 출력 ??????
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 # log?? ????????? 출력
-file_handler = logging.FileHandler('C:\\vsCode\dream_dream_explan\\test.log', encoding='utf-8')
+file_handler = logging.FileHandler('C:\\vsCode\dream_dream_explan\\server\\test.log', encoding='utf-8')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
@@ -434,4 +434,4 @@ def before_request():
 
 # 203.250.133.144:8080 , SSL???증서 ??????
 if __name__ == "__main__":
-    app.run(debug=True, host='203.250.133.144', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\ssl\key.pem'))
+    app.run(debug=True, host='203.250.133.144', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\\server\\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\\server\\ssl\key.pem'))
