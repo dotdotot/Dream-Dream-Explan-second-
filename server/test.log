@@ -1,0 +1,389 @@
+2022-08-30 02:42:20,150 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 02:42:20,152 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:42:20,559 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:42:20,562 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:42:28,696 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:42:28,760 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:42:29,151 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:42:29,154 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:42:43,379 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:42:43,441 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:42:43,835 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:42:43,839 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:42:49,687 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:42:49] "GET /user_join_membership HTTP/1.1" 200 -
+2022-08-30 02:43:15,329 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:43:15,369 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:43:15,796 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:43:15,800 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:45:30,739 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:45:30,798 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:45:31,196 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:45:31,199 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:47:28,963 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:47:29,017 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:47:29,393 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:47:29,396 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:47:36,867 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:47:36] "GET /user_join_membership HTTP/1.1" 200 -
+2022-08-30 02:56:05,190 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:56:05] "[33mGET /user-id-find/dotdotot/dotdotot203@naver.com/010-9206-9486 HTTP/1.1[0m" 404 -
+2022-08-30 02:56:07,930 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:56:07,984 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:56:08,395 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:56:08,398 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:56:13,757 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:56:13] "GET /user-id-find/dotdotot/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 02:56:56,089 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:56:56,129 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:56:56,560 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:56:56,564 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:56:57,195 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:56:57] "GET /user-id-find/dotdotot/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 02:57:00,623 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:57:00,682 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:57:01,079 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:57:01,083 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:57:04,141 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:57:04,211 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:57:04,587 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:57:04,590 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:57:08,575 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:57:08] "GET /user-id-find/dotdotot/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 02:57:26,716 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:57:26] "GET /user-id-find/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 02:58:29,057 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:58:29] "[33mGET /user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1[0m" 404 -
+2022-08-30 02:58:31,766 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:58:31,810 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:58:32,205 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:58:32,209 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:58:42,349 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 02:58:42,395 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 02:58:42,836 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 02:58:42,839 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 02:58:43,945 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 02:58:43] "GET /user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 03:01:20,142 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:01:20] "GET /manager-create-door-num HTTP/1.1" 200 -
+2022-08-30 03:03:22,819 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:03:22] "GET /user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 03:03:37,414 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:03:37] "GET /user-id-find/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 03:05:00,408 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:05:00] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-08-30 03:07:50,068 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:07:50] "POST /user_join_membership HTTP/1.1" 200 -
+2022-08-30 03:08:43,376 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:08:43,419 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:08:43,803 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:08:43,807 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:08:49,897 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:08:49,973 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:08:50,350 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:08:50,353 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:17:16,933 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:17:16,975 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:17:17,471 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:17:17,474 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:36:17,634 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:36:17,666 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:36:18,043 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:36:18,047 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:36:26,160 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:36:26,192 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:36:26,601 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:36:26,604 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:38:39,556 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:38:39,612 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:38:40,014 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:38:40,017 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:39:04,623 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:39:04] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:39:06,384 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:39:06,425 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:39:06,811 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:39:06,814 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:39:12,701 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:39:12] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:39:38,325 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:39:38,367 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:39:38,767 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:39:38,771 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:39:51,367 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:39:51] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:40:04,155 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:40:04,207 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:40:04,613 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:40:04,616 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:40:08,575 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:40:08] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:40:38,130 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:40:38,195 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:40:38,607 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:40:38,610 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:40:40,828 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:40:40] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:41:30,334 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:41:30,403 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:41:30,810 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:41:30,813 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:41:36,039 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:41:36] "[35m[1mDELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1[0m" 500 -
+2022-08-30 03:42:38,811 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:42:38,864 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:42:39,284 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:42:39,287 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:42:44,005 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:42:44] "DELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1" 200 -
+2022-08-30 03:42:50,428 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:42:50,474 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:42:50,858 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:42:50,861 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:43:17,232 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 03:43:17,283 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 03:43:17,673 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 03:43:17,677 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 03:45:47,748 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:45:47] "[31m[1mDELETE /user-join/dotdotot/wnstjr4428 HTTP/1.1[0m" 405 -
+2022-08-30 03:46:51,295 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 03:46:51] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-08-30 05:37:05,338 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\password.py', reloading
+2022-08-30 05:37:05,389 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 05:37:05,787 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 05:37:05,790 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 05:37:07,836 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\password.py', reloading
+2022-08-30 05:37:07,891 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 05:37:08,256 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 05:37:08,259 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 05:37:16,360 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 05:37:16,407 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 05:37:16,826 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 05:37:16,829 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:03:39,873 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 06:03:39,874 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:03:40,339 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:03:40,343 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:04:39,141 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:04:39] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:04:52,309 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:04:52,359 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:04:52,815 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:04:52,819 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:04:54,433 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:04:54] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:05:10,074 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:05:10,117 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:05:10,546 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:05:10,550 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:05:12,218 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:05:12] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:05:48,089 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:05:48,156 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:05:48,694 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:05:48,698 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:05:51,620 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:05:51] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:08:03,161 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 06:08:03,163 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:08:03,633 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:08:03,636 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:08:18,191 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:08:18] "POST /user-join-membership HTTP/1.1" 200 -
+2022-08-30 06:12:35,636 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:12:35,677 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:12:36,160 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:12:36,164 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:13:00,307 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:13:00] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:13:23,890 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:13:23,933 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:13:24,353 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:13:24,357 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:13:30,303 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:13:30] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:13:32,509 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:13:32,589 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:13:33,006 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:13:33,009 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:14:27,781 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:14:27,833 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:14:28,301 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:14:28,305 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:14:31,069 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:14:31] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:16:19,916 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:16:19,988 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:16:20,430 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:16:20,433 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:16:24,046 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:16:24] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:19:32,336 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:19:32,402 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:19:32,844 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:19:32,847 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:19:41,960 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:19:42,038 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:19:42,514 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:19:42,521 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:19:55,960 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:19:55] "POST /user-join-membership HTTP/1.1" 200 -
+2022-08-30 06:20:28,324 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:20:28] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:25:29,015 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 06:25:29,017 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:25:29,459 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:25:29,462 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:25:34,743 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:25:34] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:25:56,841 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:25:56,916 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:25:57,398 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:25:57,401 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:25:58,523 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:25:58] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:26:17,705 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:26:17,749 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:26:18,211 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:26:18,215 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:26:18,948 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:26:18] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:26:36,507 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:26:36,571 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:26:37,071 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:26:37,075 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:26:37,698 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:26:37] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:27:02,452 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:27:02,493 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:27:02,921 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:27:02,925 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:27:03,092 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:27:03] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:28:24,193 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:28:24,257 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:28:24,695 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:28:24,699 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:28:28,777 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:28:28,823 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:28:29,290 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:28:29,294 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:28:32,621 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:28:32] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:28:48,596 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:28:48,650 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:28:49,090 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:28:49,094 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:28:52,031 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:28:52] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:29:39,971 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:29:40,020 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:29:40,472 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:29:40,476 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:29:42,859 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:29:42] "[35m[1mGET /user-join/manager/manager HTTP/1.1[0m" 500 -
+2022-08-30 06:40:51,543 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:40:51,591 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:40:52,641 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:40:52,645 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:41:35,252 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:41:35,306 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:41:35,837 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:41:35,840 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:50:48,878 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 06:50:48,880 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:50:49,405 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:50:49,409 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:51:18,686 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:51:18] "[33mPOST /user_join_membership HTTP/1.1[0m" 404 -
+2022-08-30 06:51:29,320 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:51:29] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:52:43,141 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:52:43,222 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:52:43,718 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:52:43,722 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:52:45,667 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:52:45] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:53:54,786 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:53:54,899 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:53:55,384 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:53:55,387 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:54:53,205 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:54:53,254 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:54:53,750 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:54:53,754 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:54:59,051 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:54:59] "[35m[1mPOST /user-join-membership HTTP/1.1[0m" 500 -
+2022-08-30 06:55:23,957 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 06:55:23,958 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:55:24,428 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:55:24,431 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:55:25,754 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:55:25] "POST /user-join-membership HTTP/1.1" 200 -
+2022-08-30 06:58:46,264 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 06:58:46,325 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 06:58:46,845 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 06:58:46,849 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 06:59:06,479 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:59:06] "GET /user-join/manager/manager HTTP/1.1" 200 -
+2022-08-30 06:59:23,752 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:59:23] "GET /user-join/manager/manager1 HTTP/1.1" 200 -
+2022-08-30 06:59:28,427 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 06:59:28] "GET /user-join/manager/manager HTTP/1.1" 200 -
+2022-08-30 07:00:48,613 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:00:48,679 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:00:49,137 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:00:49,140 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:00:51,281 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:00:51] "POST /user-join-membership HTTP/1.1" 200 -
+2022-08-30 07:08:19,537 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:08:19] "POST /user-join-membership HTTP/1.1" 200 -
+2022-08-30 07:08:52,888 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:08:52] "GET /user-join/duddjq123/wsj5346378~ HTTP/1.1" 200 -
+2022-08-30 07:14:06,873 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:14:06,951 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:14:07,411 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:14:07,415 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:14:21,565 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:14:21] "[35m[1mGET /user-id-find/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1[0m" 500 -
+2022-08-30 07:14:36,833 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:14:36,899 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:14:37,401 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:14:37,404 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:14:40,465 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:14:40,547 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:14:41,022 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:14:41,025 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:15:18,605 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:15:18,682 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:15:19,189 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:15:19,192 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:15:22,383 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:15:22] "[35m[1mGET /user-id-find/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1[0m" 500 -
+2022-08-30 07:15:31,410 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:15:31,474 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:15:31,998 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:15:32,005 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:15:34,270 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:15:34] "GET /user-id-find/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 07:15:37,059 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:15:37,144 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:15:37,646 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:15:37,649 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:17:00,702 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:17:00,773 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:17:01,279 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:17:01,283 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:17:08,377 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:17:08,414 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:17:08,914 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:17:08,918 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:17:36,293 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:17:36,334 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:17:36,836 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:17:36,839 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:17:45,370 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:17:45] "[35m[1mGET /user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1[0m" 500 -
+2022-08-30 07:17:47,988 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:17:48,044 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:17:48,582 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:17:48,586 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:18:21,067 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-08-30 07:18:21,139 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 07:18:21,646 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 07:18:21,649 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 07:18:23,706 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:18:23] "GET /user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486 HTTP/1.1" 200 -
+2022-08-30 07:18:47,456 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:18:47] "GET /manager-create-door-num HTTP/1.1" 200 -
+2022-08-30 07:19:13,196 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:19:13] "POST /manager-create-door HTTP/1.1" 200 -
+2022-08-30 07:20:16,596 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 07:20:16] "DELETE /manager-delete-door/1/판매/dotdotot HTTP/1.1" 200 -
+2022-08-30 09:49:28,275 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-08-30 09:49:28,277 - werkzeug - INFO -  * Restarting with stat
+2022-08-30 09:49:28,792 - werkzeug - WARNING -  * Debugger is active!
+2022-08-30 09:49:28,795 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-08-30 10:19:29,589 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 10:19:29] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-08-30 15:41:09,203 - werkzeug - INFO - 45.154.98.173 - - [30/Aug/2022 15:41:09] "GET / HTTP/1.1" 200 -
+2022-08-30 15:41:24,675 - werkzeug - INFO - 185.220.101.169 - - [30/Aug/2022 15:41:24] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2022-08-30 15:41:24,694 - werkzeug - INFO - 185.220.101.159 - - [30/Aug/2022 15:41:24] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
+2022-08-30 15:44:27,721 - werkzeug - INFO - 64.62.197.197 - - [30/Aug/2022 15:44:27] "GET / HTTP/1.1" 200 -
+2022-08-30 15:45:25,657 - werkzeug - INFO - 64.62.197.201 - - [30/Aug/2022 15:45:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-08-30 18:08:36,022 - werkzeug - INFO - 203.250.133.144 - - [30/Aug/2022 18:08:36] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-08-30 19:18:34,353 - werkzeug - INFO - 159.203.114.242 - - [30/Aug/2022 19:18:34] "[33mGET /ab2g HTTP/1.1[0m" 404 -
+2022-08-30 19:18:35,230 - werkzeug - INFO - 159.203.114.242 - - [30/Aug/2022 19:18:35] "[33mGET /ab2h HTTP/1.1[0m" 404 -
+2022-09-02 15:40:39,120 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-09-02 15:40:39,122 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 15:40:40,757 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 15:40:40,762 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-09-02 15:40:42,814 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-09-02 15:40:42,856 - werkzeug - INFO -  * Restarting with stat
+2022-09-02 15:40:43,704 - werkzeug - WARNING -  * Debugger is active!
+2022-09-02 15:40:43,709 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-09-02 15:41:05,885 - werkzeug - INFO - 203.250.133.144 - - [02/Sep/2022 15:41:05] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-09-02 16:46:13,541 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:13] "GET / HTTP/1.1" 200 -
+2022-09-02 16:46:14,153 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:14] "GET / HTTP/1.1" 200 -
+2022-09-02 16:46:14,746 - werkzeug - ERROR - 167.248.133.61 - - [02/Sep/2022 16:46:14] code 505, message Invalid HTTP version (2.0)
+2022-09-02 16:46:14,748 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:14] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2022-09-02 16:46:15,589 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:15] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2022-09-02 16:46:16,170 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:16] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 200 -
+2022-09-02 16:46:16,747 - werkzeug - INFO - 167.248.133.61 - - [02/Sep/2022 16:46:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-10-03 21:46:42,784 - werkzeug - INFO -  * Running on https://203.250.133.144:8080 (Press CTRL+C to quit)
+2022-10-03 21:46:42,799 - werkzeug - INFO -  * Restarting with stat
+2022-10-03 21:46:43,315 - werkzeug - WARNING -  * Debugger is active!
+2022-10-03 21:46:43,336 - werkzeug - INFO -  * Debugger PIN: 101-077-132
+2022-10-03 21:47:11,072 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:11] "GET / HTTP/1.1" 200 -
+2022-10-03 21:47:11,674 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:11] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2022-10-03 21:47:11,682 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:11] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+2022-10-03 21:47:11,842 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:11] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2022-10-03 21:47:11,842 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:11] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2022-10-03 21:47:12,005 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:12] "GET /swagger.json HTTP/1.1" 200 -
+2022-10-03 21:47:12,023 - werkzeug - INFO - 203.250.133.144 - - [03/Oct/2022 21:47:12] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+2022-10-03 21:47:22,914 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-10-03 21:47:22,967 - werkzeug - INFO -  * Restarting with stat
+2022-10-03 21:47:23,520 - werkzeug - WARNING -  * Debugger is active!
+2022-10-03 21:47:23,524 - werkzeug - INFO -  * Debugger PIN: 101-077-132
+2022-10-03 21:47:25,555 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\dream_main.py', reloading
+2022-10-03 21:47:25,596 - werkzeug - INFO -  * Restarting with stat
+2022-10-03 21:47:26,121 - werkzeug - WARNING -  * Debugger is active!
+2022-10-03 21:47:26,126 - werkzeug - INFO -  * Debugger PIN: 101-077-132
