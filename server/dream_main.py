@@ -404,18 +404,18 @@ api.add_resource(manager_delete_door,"/manager-delete-door/<string:door_number>/
 # https://203.250.133.144:8080/manager-delete-door/1/?????/dotdotot
 
 # TODO Log(file save)
-# 로그 ??????
+# 로그 출력
 logger = logging.getLogger()
-# 로그??? 출력 기??? ?????? (DEBUG, INFO, WARNING, ERROR, WARNING)
+# 로그의 출력 기준 (DEBUG, INFO, WARNING, ERROR, WARNING)
 logger.setLevel(logging.INFO)
-# log 출력 ??????
+# log 출력 포맷
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# log?? ????????? 출력
-file_handler = logging.FileHandler('C:\\vsCode\dream_dream_explan\\server\\test.log', encoding='utf-8')
+# 기존 log파일에 이어서 출력
+file_handler = logging.FileHandler('C:\\vsCode\pcuCapstoneProject\server\log\\test.log', encoding='utf-8')
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
-# TODO 로그 출력(cmd??)
+# TODO 로그 출력
 @app.before_request
 def before_request():
     stream_handler = logging.StreamHandler()
@@ -423,7 +423,7 @@ def before_request():
     stream_handler.setFormatter(formatter)
     logger.addHandler(stream_handler)
     
-# TODO http -> https ?????
+# TODO http -> https 변환해서 접속
 @app.before_request
 def before_request():
     scheme = request.headers.get('X-Forwarded-Proto')
@@ -432,6 +432,15 @@ def before_request():
         code = 301
         return redirect(url, code=code)
 
+class testCode(Resource):
+    def get(self):
+        return 1234;
+api.add_resource(testCode,"/testcode")
+# https://203.250.133.144:8080/testcode
+
 # 203.250.133.144:8080 , SSL???증서 ??????
 if __name__ == "__main__":
     app.run(debug=True, host='203.250.133.144', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\\server\\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\\server\\ssl\key.pem'))
+
+    
+    
