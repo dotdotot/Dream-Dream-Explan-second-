@@ -19,7 +19,7 @@ from Crypto.Cipher import AES
 from secrets import token_bytes
 
 # mysql setting
-conn = pymysql.connect(host='203.250.133.144', user='dotdotot', password='!wnstjr4428', db='my_db', charset='utf8')
+conn = pymysql.connect(host='211.194.139.247', user='dotdotot', password='!wnstjr4428', db='my_db', charset='utf8')
 
 # TODO db table property
 # # - door ???????? ??????-
@@ -440,7 +440,7 @@ api.add_resource(testCode,"/testcode")
 
 # 203.250.133.144:8080 , SSL???증서 ??????
 if __name__ == "__main__":
-    app.run(debug=True, host='203.250.133.144', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\\server\\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\\server\\ssl\key.pem'))
+    app.run(debug=True, host='211.194.139.247', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\\server\\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\\server\\ssl\key.pem'))
 
     
     
