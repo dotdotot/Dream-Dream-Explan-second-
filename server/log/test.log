@@ -1,0 +1,14 @@
+2022-11-06 05:42:41,479 - werkzeug - WARNING -  * Debugger is active!
+2022-11-06 05:42:41,484 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-11-06 05:42:45,547 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\server\\log\\log.py', reloading
+2022-11-06 05:42:46,193 - werkzeug - WARNING -  * Debugger is active!
+2022-11-06 05:42:46,197 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-11-06 05:42:56,351 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\server\\dream_main1.py', reloading
+2022-11-06 05:42:56,955 - werkzeug - WARNING -  * Debugger is active!
+2022-11-06 05:42:56,959 - werkzeug - INFO -  * Debugger PIN: 527-166-884
+2022-11-06 05:46:27,288 - werkzeug - INFO - 192.168.0.5 - - [06/Nov/2022 05:46:27] "GET /user-join/dotdotot/!wnstjr4428 HTTP/1.1" 200 -
+2022-11-06 05:46:27,361 - werkzeug - INFO - 192.168.0.5 - - [06/Nov/2022 05:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-06 05:47:02,143 - werkzeug - INFO - 192.168.0.5 - - [06/Nov/2022 05:47:02] "GET /user-join/dotdotot/wnstjr4428 HTTP/1.1" 200 -
+2022-11-06 05:47:11,672 - werkzeug - INFO -  * Detected change in 'c:\\vsCode\\dream_dream_explan\\server\\dream_main1.py', reloading
+2022-11-06 05:47:12,248 - werkzeug - WARNING -  * Debugger is active!
+2022-11-06 05:47:12,252 - werkzeug - INFO -  * Debugger PIN: 527-166-884

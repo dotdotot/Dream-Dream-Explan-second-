@@ -1,102 +1,17 @@
-from ast import Pass
-from email import message
-import json
-from flask import Flask, jsonify, request, redirect  # ????? 구현??? ?????? Flask 객체 import
-from flask_restx import Api, Resource  # Api 구현??? ?????? Api 객체 import
-import pymysql  # mysql 
-import datetime # python datetime
-
-# image?? ?????? import
-from flask import request
-from werkzeug.utils import secure_filename
-
-# logging
-import logging
-import logging.config
-
-# ??????????? ?????? import
+from flask import Flask, jsonify, request, redirect
+from flask_restx import Resource
+# python datetime
+import datetime 
+# 비밀번호 암호화 전용 import
 from Crypto.Cipher import AES
 from secrets import token_bytes
-
-# mysql setting
-conn = pymysql.connect(host='211.194.139.247', user='dotdotot', password='!wnstjr4428', db='my_db', charset='utf8')
-
-# TODO db table property
-# # - door ???????? ??????-
-# create table door(
-# door_number int not null unique,
-# door_stats varchar(5) not null,
-# registration_date datetime not null,
-# umbrella_price int not null,
-# primary key(door_number) 
-# ); 
-
-# # - door_image ???????? ??????- 
-# create table door_image(
-# door_number int not null unique,
-# main_image_path varchar(50) not null,
-# more_image1_path varchar(50),
-# more_image2_path varchar(50),
-# more_image3_path varchar(50),
-# more_image4_path varchar(50),
-# foreign key(door_number) references door(door_number) 
-# on delete cascade on update cascade;
-# );
-
-# # - log ???????? ?????? -
-# create table log_table(
-# door_number int not null,
-# delete_reason varchar(10) not null,
-# delete_date datetime not null,
-# registration_date datetime not null,
-# price int not null,
-# sale_user varchar(12) not null
-# ); 
-
-# # - user ???????? ?????? -
-# create table user_info(
-# user_id varchar(12) not null unique,
-# user_pw1 varchar(150) not null,
-# user_pw2 varchar(150) not null,
-# user_pw3 varchar(150) not null,
-# user_pw_key varchar(100) not null,
-# user_name varchar(4) not null,
-# user_gender varchar(2) not null,
-# user_email varchar(25),
-# user_phone varchar(13) not null,
-# user_date datetime not null,
-# user_grant varchar(5) not null,
-# primary key(user_id)
-# ); 
-
-# Flask 객체 ??????, ??????미터?? ??????리????????? ??????????? ???름을 ????????.
-app = Flask(__name__) 
-# utf8 ?????? (????? 깨짐 방???)
-app.config['JSON_AS_ASCII'] = False
-# Flask 객체??? Api 객체 ?????
-api = Api(app) 
-
-#TODO Arduino ACK,NAK message
-class Arduino_Ack_Nak(Resource):
-    def post(self, arduinoDoor, arduinoState):
-        return {"arduinoDoor" : arduinoDoor, "arduinoState" : arduinoState}
-api.add_resource(Arduino_Ack_Nak, "/app-pay-arduino/door/d/<int:arduinoDoor>/<string:arduinoState>")
-# -- header --
-# https://203.250.133.144:8080/app-pay-arduino/door/d/1/ACK
-
-# TODO Arduino Door Open
-class Arduino_Door_Open(Resource):
-    def get(self,arduinoDoor):
-        return {"arduinoDoor" : arduinoDoor}
-# api.add_resource
-# -- header --
-# https://203.250.133.144:8080/user-join-membership
+# db conn import
+from database.db import *
 
 # TODO password_encryption class
 class Password_encryption:
-    # ???코딩
+    # 인코딩
     def encoding(self, user_pw):
-        # ???????? ??????
         key = token_bytes(16)
         
         cipher = AES.new(key, AES.MODE_EAX)
@@ -104,7 +19,7 @@ class Password_encryption:
         ciphertext, tag = cipher.encrypt_and_digest(user_pw.encode('ascii'))
         return nonce, ciphertext, tag, key
     
-    # ???코딩
+    # 디코딩
     def decoding(self,user_pw1,user_pw2,user_pw3,key):
         cipher = AES.new(key, AES.MODE_EAX, nonce=user_pw1)
         plaintext = cipher.decrypt(user_pw2)
@@ -113,9 +28,8 @@ class Password_encryption:
             return plaintext.decode('ascii')
         except:
             return False
-
         
-#TODO APP user join membership (get, post ??????)
+#TODO APP user join membership (get, post)
 class user_join_membership(Resource):
     def get(self):
         return 'hello'
@@ -130,7 +44,7 @@ class user_join_membership(Resource):
         user_email = request.json['user_email']
         user_phone = request.json['user_phone']
         
-        # 비???번호 ???코딩
+        # 비밀번호 인코딩
         user_pw1,user_pw2,user_pw3, key = password_encryption.encoding(user_pw)
         
         # MySQL Server connect
@@ -144,26 +58,25 @@ class user_join_membership(Resource):
         DT = datetime.datetime.today()
         user_date = DT.strftime('%Y/%m/%d %H:%M:%S')
         # user_grant
-        user_grant = "?????????"
+        user_grant = "사용자"
         
         vals = (user_id, user_pw1, user_pw2, user_pw3, key, user_name, 
                 user_gender, user_email, user_phone, user_date, user_grant)
-        cur.execute(sql,vals);
+        cur.execute(sql,vals)
         conn.commit()
-api.add_resource(user_join_membership, "/user-join-membership")
 # -- header --
 # https://203.250.133.144:8080/user-join-membership
 # -- body --
 # {
 # 	"user_id" : "duddjq123",
 # 	"user_pw": "wsj5346378~",
-# 	"user_name" : "????????",
-#   "user_gender" : "??????",
+# 	"user_name" : "김영업",
+#   "user_gender" : "남자",
 # 	"user_email": "duddjq123@naver.com",
 # 	"user_phone" : "010-6483-2544"
 # }
 
-# TODO App user Join (get ??????)
+# TODO App user Join (get)
 class user_join(Resource):
     def get(self,userid,userpw):
         password_encryption = Password_encryption()
@@ -182,7 +95,6 @@ class user_join(Resource):
         # user id 조회
         for i in res:
             if (i[0] == userid):
-                # ?????? ???????????? ???????????? 비???번호??? key?? ??????????? ???코딩
                 user_pw1 = i[1]
                 user_pw2 = i[2]
                 user_pw3 = i[3]
@@ -195,12 +107,9 @@ class user_join(Resource):
         if(check):
             return jsonify(user_grant)
         return 'false'
-api.add_resource(user_join, "/user-join/<string:userid>/<string:userpw>")    
-# -- header --
 # https://203.250.133.144:8080/user-join/dotdotot/wnstjr4428
 
-# TODO App user id find (get ??????) 
-# -> false?? return?????? 200??????코드 발생?????? 문제
+# TODO App user id find (get)
 class user_id_find(Resource):
     def get(self,user_name,user_email,user_phone):
         # MySQL Server connect
@@ -209,7 +118,7 @@ class user_id_find(Resource):
         # inquiry
         # MySQL commend implement
         cur.execute("SELECT * FROM user_info")
-        # all row ??????????
+        # all row 가져오기
         res = cur.fetchall()
         
         user_id = ''
@@ -218,12 +127,9 @@ class user_id_find(Resource):
                 user_id = i[0]
                 return jsonify(user_id)
         return 'false'
-api.add_resource(user_id_find, "/user-id-find/<string:user_name>/<string:user_email>/<string:user_phone>")    
-# https://203.250.133.144:8080/user-id-find/???????/dotdotot203@naver.com/010-9206-9486
+# https://203.250.133.144:8080/user-id-find/김준석/dotdotot203@naver.com/010-9206-9486
 
-# TODO App user pw find (get ??????)
-# -> false?? return?????? 200??????코드 발생?????? 문제 
-# -> 비???번호??? ??????????? return값이 true, false?? ?????? ??????코드?? return????? ???결되??? 문제(????? 복잡?????)
+# TODO App user pw find (get)
 class user_pw_find(Resource):
     def get(self,user_id,user_name,user_email,user_phone):
         password_encryption = Password_encryption()
@@ -233,7 +139,7 @@ class user_pw_find(Resource):
         # inquiry
         # MySQL commend implement
         cur.execute("SELECT * FROM user_info")
-        # all row ??????????
+        # all row 가져오기
         res = cur.fetchall()
         
         user_pw = ''
@@ -246,12 +152,9 @@ class user_pw_find(Resource):
                 user_pw = password_encryption.decoding(user_pw1,user_pw2,user_pw3,key)
                 return jsonify(user_pw)
         return 'false'
-api.add_resource(user_pw_find, "/user-pw-find/<string:user_id>/<string:user_name>/<string:user_email>/<string:user_phone>")
-# https://203.250.133.144:8080/user-pw-find/dotdotot/???????/dotdotot203@naver.com/010-9206-9486
+# https://203.250.133.144:8080/user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486
 
-# TODO umbrella num check (get ??????)
-# ?????????????? ?????? db??? ???록된 ????????? 개수 return
-# ??????로이????????? ????????? 개수?? 몇개????? ??????????????? (2?? 초과금???)
+# TODO umbrella num check (get)
 class manager_create_door_num(Resource):
     def get(self):
         # MySQL Server connect
@@ -260,7 +163,7 @@ class manager_create_door_num(Resource):
         # inquiry
         # MySQL commend implement
         cur.execute("SELECT * FROM door")
-        # all row ??????????
+        # all row 가져오기
         res = cur.fetchall()
         
         num = 0
@@ -268,11 +171,9 @@ class manager_create_door_num(Resource):
         for i in res:
             num += 1
         return num;
-api.add_resource(manager_create_door_num,"/manager-create-door-num")
 # https://203.250.133.144:8080/manager-create-door-num
 
-# TODO umbrella create (get, post ??????)
-# ????? ?????? image?? 불러??????것??? ??????????? ??????.
+# TODO umbrella create (get, post)
 class manager_create_door(Resource):
     def get(self):
         # test
@@ -329,7 +230,7 @@ class manager_create_door(Resource):
         sql = "insert into door values(%s, %s, %s, %s)"
 
         # door_stats
-        door_stats = "???매중"
+        door_stats = "판매중"
         # registration_date
         DT = datetime.datetime.today()
         registration_date = DT.strftime('%Y/%m/%d %H:%M:%S')
@@ -343,7 +244,6 @@ class manager_create_door(Resource):
         vals = (door_number,main_image_path,more_image1_path,more_image2_path,more_image3_path,more_image4_path)
         cur.execute(sql,vals)
         conn.commit()    
-api.add_resource(manager_create_door,"/manager-create-door")      
 # -- header --
 # https://203.250.133.144:8080/manager-create-door/
 # -- body --
@@ -362,8 +262,7 @@ api.add_resource(manager_create_door,"/manager-create-door")
 #  	"second_image4" : ""
 # } 
 
-# TODO umbrella delete (delete ??????)
-# door ?????? ??????, door_image cascade?? ?????? ??????, log_table??? 추??? ??????.
+# TODO umbrella delete (delete)
 class manager_delete_door(Resource):
     def delete(self,door_number,delete_reason,user_id):
         door_number = door_number
@@ -399,48 +298,3 @@ class manager_delete_door(Resource):
         sql = "delete from door where door_number = " + door_number
         cur.execute(sql)
         conn.commit()
-api.add_resource(manager_delete_door,"/manager-delete-door/<string:door_number>/<string:delete_reason>/<string:user_id>")
-# -- header --
-# https://203.250.133.144:8080/manager-delete-door/1/?????/dotdotot
-
-# TODO Log(file save)
-# 로그 출력
-logger = logging.getLogger()
-# 로그의 출력 기준 (DEBUG, INFO, WARNING, ERROR, WARNING)
-logger.setLevel(logging.INFO)
-# log 출력 포맷
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-# 기존 log파일에 이어서 출력
-file_handler = logging.FileHandler('C:\\vsCode\pcuCapstoneProject\server\log\\test.log', encoding='utf-8')
-file_handler.setFormatter(formatter)
-logger.addHandler(file_handler)
-
-# TODO 로그 출력
-@app.before_request
-def before_request():
-    stream_handler = logging.StreamHandler()
-    formatter =logging.Formatter('%(message)s')
-    stream_handler.setFormatter(formatter)
-    logger.addHandler(stream_handler)
-    
-# TODO http -> https 변환해서 접속
-@app.before_request
-def before_request():
-    scheme = request.headers.get('X-Forwarded-Proto')
-    if scheme and scheme == 'http' and request.url.startswith('http://'):
-        url = request.url.replace('http://', 'https://', 1)
-        code = 301
-        return redirect(url, code=code)
-
-class testCode(Resource):
-    def get(self):
-        return 1234;
-api.add_resource(testCode,"/testcode")
-# https://203.250.133.144:8080/testcode
-
-# 203.250.133.144:8080 , SSL???증서 ??????
-if __name__ == "__main__":
-    app.run(debug=True, host='211.194.139.247', port=8080, ssl_context=('C:\\vsCode\dream_dream_explan\\server\\ssl\cert.pem', 'C:\\vsCode\dream_dream_explan\\server\\ssl\key.pem'))
-
-    
-    

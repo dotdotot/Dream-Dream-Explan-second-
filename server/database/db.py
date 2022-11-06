@@ -1,18 +1,16 @@
 import pymysql  # mysql 
 # mysql setting
-conn = pymysql.connect(host='211.194.139.247', user='dotdotot', password='!wnstjr4428', db='my_db', charset='utf8')
-
+conn = pymysql.connect(host='127.0.0.1', user='dotdotot', password='!wnstjr4428', db='my_db', charset='utf8')
 # TODO db table property
-# # - door ???????? ??????-
+# # - door table-
 # create table door(
 # door_number int not null unique,
 # door_stats varchar(5) not null,
 # registration_date datetime not null,
-# umbrella_price int not null,
 # primary key(door_number) 
 # ); 
 
-# # - door_image ???????? ??????- 
+# # - door_image table
 # create table door_image(
 # door_number int not null unique,
 # main_image_path varchar(50) not null,
@@ -24,17 +22,16 @@ conn = pymysql.connect(host='211.194.139.247', user='dotdotot', password='!wnstj
 # on delete cascade on update cascade;
 # );
 
-# # - log ???????? ?????? -
+# # - log table -
 # create table log_table(
 # door_number int not null,
 # delete_reason varchar(10) not null,
 # delete_date datetime not null,
 # registration_date datetime not null,
-# price int not null,
-# sale_user varchar(12) not null
+# user_id varchar(12) not null
 # ); 
 
-# # - user ???????? ?????? -
+# # - user_info table -
 # create table user_info(
 # user_id varchar(12) not null unique,
 # user_pw1 varchar(150) not null,
