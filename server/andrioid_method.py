@@ -38,12 +38,17 @@ class user_join_membership(Resource):
         password_encryption = Password_encryption()
         
         user_id = request.json['user_id']
+
         user_pw = request.json['user_pw']
+
         user_name = request.json['user_name']
+
         user_gender = request.json['user_gender']
+
         user_email = request.json['user_email']
+
         user_phone = request.json['user_phone']
-        
+
         # 비밀번호 인코딩
         user_pw1,user_pw2,user_pw3, key = password_encryption.encoding(user_pw)
         
@@ -64,6 +69,7 @@ class user_join_membership(Resource):
                 user_gender, user_email, user_phone, user_date, user_grant)
         cur.execute(sql,vals)
         conn.commit()
+        # conn.close()
 # -- header --
 # https://203.250.133.144:8080/user-join-membership
 # -- body --
@@ -89,6 +95,8 @@ class user_join(Resource):
         cur.execute("SELECT * FROM user_info")
         # all row ??????????
         res = cur.fetchall()
+        
+        # conn.close()
         
         user_grant = ''
         check = False
@@ -120,6 +128,8 @@ class user_id_find(Resource):
         cur.execute("SELECT * FROM user_info")
         # all row 가져오기
         res = cur.fetchall()
+
+        # conn.close()
         
         user_id = ''
         for i in res:
@@ -142,6 +152,8 @@ class user_pw_find(Resource):
         # all row 가져오기
         res = cur.fetchall()
         
+        # conn.close()
+        
         user_pw = ''
         for i in res:
             if (i[0] == user_id and i[5] == user_name and i[7] == user_email and i[8] == user_phone):
@@ -153,6 +165,48 @@ class user_pw_find(Resource):
                 return jsonify(user_pw)
         return 'false'
 # https://203.250.133.144:8080/user-pw-find/dotdotot/김준석/dotdotot203@naver.com/010-9206-9486
+
+# TODO user info get (get)
+class user_info(Resource):
+    def get(self, user_id, user_pw):
+        password_encryption = Password_encryption()
+        # MySQL Server connect
+        cur = conn.cursor()
+        
+        # inquiry
+        # MySQL commend implement
+        cur.execute("SELECT * FROM user_info")
+        # all row 가져오기
+        res = cur.fetchall()
+        
+        # conn.close()
+        
+        id = ""
+        pw = ""
+        name = ""
+        gender = ""
+        email = ""
+        phone = ""
+        grant = ""
+        
+        for i in res:
+            if (i[0] == user_id):
+                user_pw1 = i[1]
+                user_pw2 = i[2]
+                user_pw3 = i[3]
+                key = i[4]
+                user_pw = password_encryption.decoding(user_pw1,user_pw2,user_pw3,key)
+                
+                id = i[0]
+                pw = user_pw
+                name = i[5]
+                gender = i[6]
+                email = i[7]
+                phone = i[8]
+                grant = i[10]
+                
+                return jsonify(id,pw,name,gender,email,phone,grant)
+        return 'false'
 
 # TODO umbrella num check (get)
 class manager_create_door_num(Resource):
@@ -166,12 +220,122 @@ class manager_create_door_num(Resource):
         # all row 가져오기
         res = cur.fetchall()
         
+        # conn.close()
+        
         num = 0
         # user id 조회
         for i in res:
             num += 1
+    
         return num;
 # https://203.250.133.144:8080/manager-create-door-num
+
+# TODO umbrella rental (post)
+class manager_rental_door(Resource):
+    def post(self,door_number):
+        user_id = request.json['user_id']
+        
+        # MySQL Server connect
+        cur = conn.cursor()
+        
+        # inquiry
+        # MySQL commend implement
+        cur.execute("SELECT * FROM door")
+        # all row 가져오기
+        res = cur.fetchall()
+        r_data = ""
+        for rentUser, d_number, door_stats, r_date in res:
+            r_data = r_date
+        # MySQL log table values add
+        sql = "insert into log values(%s, %s, %s, %s, %s)"
+
+        # door_stats
+        delete_reason = "대여 시작"
+        # registration_date
+        DT = datetime.datetime.today()
+        delete_date = DT.strftime('%Y/%m/%d %H:%M:%S')
+        
+        vals = (door_number, delete_reason, delete_date, r_data, user_id)
+        cur.execute(sql,vals)
+        
+        # 업데이트
+        sql = "update door set door_stats = %s, rentUser = %s where door_number = %s"
+        d_s = "대여 불가"
+        vals = (d_s,user_id,door_number);
+        cur.execute(sql,vals)
+        
+        conn.commit()   
+        # conn.close() 
+# -- header --
+# https://203.250.133.144:8080/manager-rental-door/1
+# -- body --
+# {
+# 	"user_id" : "dotdotot"
+# } 
+
+# TODO umbrella return (post)
+class manager_return_door(Resource):
+    def post(self,door_number):
+        user_id = request.json['user_id']
+        
+        # MySQL Server connect
+        cur = conn.cursor()
+        
+        # inquiry
+        # MySQL commend implement
+        cur.execute("SELECT * FROM door")
+        # all row 가져오기
+        res = cur.fetchall()
+        r_data = ""
+        for rentUser, d_number, door_stats, r_date in res:
+            r_data = r_date
+        # MySQL log table values add
+        sql = "insert into log values(%s, %s, %s, %s, %s)"
+
+        # door_stats
+        delete_reason = "대여 끝"
+        # registration_date
+        DT = datetime.datetime.today()
+        delete_date = DT.strftime('%Y/%m/%d %H:%M:%S')
+        
+        vals = (door_number, delete_reason, delete_date, r_data, user_id)
+        cur.execute(sql,vals)
+        
+        sql = "update door set door_stats = %s, rentUser = %s where door_number = %s"
+        d_s = "대여 가능"
+        vals = (d_s,"",door_number);
+        cur.execute(sql,vals)
+        
+        conn.commit()   
+        # conn.close() 
+# -- header --
+# https://203.250.133.144:8080/manager-return-door/1
+# -- body --
+# {
+# 	"user_id" : "dotdotot"
+# } 
+
+# TODO umbrella rental check (post)
+class manager_rental_check(Resource):
+    def get(self,door_number):
+        # MySQL Server connect
+        cur = conn.cursor()
+        
+        # inquiry
+        # MySQL commend implement
+        cur.execute("SELECT * FROM door")
+        # all row 가져오기
+        res = cur.fetchall()
+        
+        # conn.close();
+        
+        for i in res:
+            if(door_number == i[1]):
+                return jsonify(i[2])
+        return "오류"
+# -- header --
+# https://203.250.133.144:8080/manager-rental-check/1
+
 
 # TODO umbrella create (get, post)
 class manager_create_door(Resource):
@@ -244,6 +408,7 @@ class manager_create_door(Resource):
         vals = (door_number,main_image_path,more_image1_path,more_image2_path,more_image3_path,more_image4_path)
         cur.execute(sql,vals)
         conn.commit()    
+        conn.close()
 # -- header --
 # https://203.250.133.144:8080/manager-create-door/
 # -- body --
@@ -298,3 +463,4 @@ class manager_delete_door(Resource):
         sql = "delete from door where door_number = " + door_number
         cur.execute(sql)
         conn.commit()
+        # conn.close()
