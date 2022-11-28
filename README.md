@@ -1,6 +1,6 @@
 # # Dream-Dream-Explan-second-
 🗓 프로젝트 소개 : Dream-Dream-Explan-second-</br>
-🗓 기간 : 2022.8.13 ~   </br>
+🗓 기간 : 2022.8.13 ~ 2022.11.29  </br>
 🗓 팀원:  [준석](https://github.com/dotdotot)</br>
 🗓 리뷰어: [정준](https://github.com/oolle4043)</br></br>
 🗓 리뷰어: [준석](https://github.com/dotdotot)</br></br>
